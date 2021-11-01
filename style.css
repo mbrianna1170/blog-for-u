@@ -1,0 +1,17 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: azure;
+}
+
+.navbar-brand {
+    padding: .75rem;
+}
+
+.fa {
+    color: white;
+  }
