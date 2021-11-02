@@ -10,12 +10,34 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/756a7797f6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- NAVBAR starts here -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 sticky-top">
+        <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-decoration-none" id="brand-name">
+            Mango Mugs
+        </a>
+  
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2">HOME</a></li>
+          <li><a href="#" class="nav-link px-2">NEW + NOW</a></li>
+          <li><a href="#" class="nav-link px-2">HOLIDAY</a></li>
+          <li><a href="#" class="nav-link px-2">ON SALE</a></li>
+          <li><a href="#" class="nav-link px-2">ALL DRINKWEAR</a></li>
+        </ul>
+  
+        <div class="col-md-3 text-end">
+          <button type="button" class="btn btn-outline-primary me-2" id="sign-in-btn">Sign In</button>
+          <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+          <!-- <button type="button" class="btn btn-primary">Sign-up</button> -->
+        </div>
+      </header>
+    <!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top justify-content-center">
         <a class="navbar-brand" href="#">Mango Mugs</a>
         <ul class="navbar-nav">
             <li class="nav-item">
@@ -32,7 +54,7 @@
             </li>
         </ul>
         <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-    </nav>
+    </nav> -->
 
     <!-- CAROUSEL starts here -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -64,6 +86,7 @@
 
     <!-- GALLERY starts here -->
     <div class="container">
+        <h2 class="section-header">SHOP HOLIDAY</h2>
         <div class="row">
             <div class="col-lg-4">
                 <div class="card">
@@ -71,7 +94,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Product #1</h5>
                         <p class="card-text">
-                            Choose from an 11 or 15 oz mug that is dishwasher and microwave safe!
+                            $15.99
                         </p>
                         <a href="#!" class="btn btn-primary">Add To Cart</a>
                     </div>
@@ -84,7 +107,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Product #2</h5>
                         <p class="card-text">
-                            Choose from an 11 or 15 oz mug that is dishwasher and microwave safe!
+                            $15.99
                         </p>
                         <a href="#!" class="btn btn-primary">Add To Cart</a>
                     </div>
@@ -97,7 +120,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Product #3</h5>
                         <p class="card-text">
-                            Choose from an 11 or 15 oz mug that is dishwasher and microwave safe!
+                            $15.99
                         </p>
                         <a href="#!" class="btn btn-primary">Add To Cart</a>
                     </div>
@@ -107,35 +130,44 @@
     </div>
     <!--Subscribe form starts here-->
     <!-- Default form subscription -->
-    <form class="text-center border border-light p-5" action="#!">
+    <container>
+        <form class="text-center border border-light p-5"  id="sub-form" action="#!">
 
-        <p class="h4 mb-4">Subscribe</p>
-
-        <p>Join our mailing list. Be first to get the newest drops and discount codes!</p>
-
-        <p>
-            <a href="" target="_blank">See the last newsletter</a>
-        </p>
-
-        <!-- Name -->
-        <input type="text" id="defaultSubscriptionFormPassword" class="form-control mb-4" placeholder="Name">
-
-        <!-- Email -->
-        <input type="email" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="E-mail">
-
-        <!-- Sign in button -->
-        <button class="btn btn-info btn-block" type="submit">Sign in</button>
-
-
-    </form>
+            <p class="h4 mb-4" id="sub-header">SUBSCRIBE</p>
+    
+            <p id="sub-text">Stay in the know! Sign up for our newsletter to get exclusive deals.</p>
+    
+            <p>
+                <a href="" target="_blank">See the last newsletter</a>
+            </p>
+    
+            <!-- Name -->
+            <input type="text" id="defaultSubscriptionFormPassword" class="form-control mb-4" placeholder="Name">
+    
+            <!-- Email -->
+            <input type="email" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="E-mail">
+    
+            <!-- Sign in button -->
+            <button class="btn btn-info btn-block" type="submit">Sign in</button>
+    
+    
+        </form>
+    </container>
+    
     <!-- Default form subscription -->
-    <footer> Made by Bri Miller &copy;2021
+    <footer> 
         <ul>
             <li>
-                Contact Us
+                ABOUT
             </li>
             <li>
-                Social Media
+                FAQ
+            </li>
+            <li>
+                CONTACT US
+            </li>
+            <li>
+                OUR POLICY 
             </li>
         </ul>
     </footer>

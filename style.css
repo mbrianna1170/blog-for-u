@@ -4,14 +4,95 @@ body {
     box-sizing: border-box;
 }
 
-nav {
-    background-color: azure;
+/* * {
+    font-family: 'Lato', sans-serif;
+} */
+
+header {
+    background-color: #141414;
 }
 
-.navbar-brand {
-    padding: .75rem;
+#brand-name {
+    font-size: 26px;
+    font-weight: 600;
+    padding-left: 1rem;
+    color: rgb(241, 229, 229);
+}
+
+a.nav-link {
+    color: lime;
+}
+
+.btn-outline-primary {
+    color:rgb(241, 229, 229);
+    border-color: lime;
 }
 
 .fa {
+    color: rgb(241, 229, 229);
+}
+
+i.fa.fa-shopping-cart.fa-2x {
+    padding-right: 1rem;
+    vertical-align: middle;
+}
+
+/* Cards Container */
+.section-header {
+    text-align: center;
+    padding: .5rem;
+    font-size: 32px;
+    font-weight: 700;
+}
+.container {
+    padding: 1.75rem;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+/* Subscribe Section */
+
+#sub-form {
+    background-color: lavender;
+}
+
+#sub-header {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#sub-text {
+    font-size: 20px;
+}
+
+.form-control {
+    width: 50% !important;
+    margin: auto !important;
+}
+
+/* Footer Fixed */
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: .10rem;
+    background-color: gray;
     color: white;
-  }
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+    padding: 5px;
+    font-size: 18px;
+}
+
+footer ul {
+    margin-top: .5rem !important;
+}
