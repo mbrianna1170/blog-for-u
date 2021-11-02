@@ -4,37 +4,47 @@ body {
     box-sizing: border-box;
 }
 
-/* * {
+
+* {
     font-family: 'Lato', sans-serif;
-} */
+}
 
 header {
-    background-color: #141414;
+    background-color: #1e1f21;
 }
 
 #brand-name {
-    font-size: 26px;
-    font-weight: 600;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
     padding-left: 1rem;
-    color: rgb(241, 229, 229);
+    vertical-align: middle;
+    color: #ece6e3;
 }
 
 a.nav-link {
-    color: lime;
-}
-
-.btn-outline-primary {
-    color:rgb(241, 229, 229);
-    border-color: lime;
+    color: #39FF13;
 }
 
 .fa {
-    color: rgb(241, 229, 229);
+    color: #39FF13;
+    padding-right: 1rem;
+    padding-left: .5rem;
 }
 
-i.fa.fa-shopping-cart.fa-2x {
-    padding-right: 1rem;
+i.fa.fa-user.fa-lg
+i.fa.fa-shopping-cart.fa-lg {
     vertical-align: middle;
+}
+
+i.fa.fa-user.fa-lg.a
+i.fa.fa-shopping-cart.fa-lg.a {
+    padding-left: .3rem;
+}
+
+a {
+    font-size: 16px;
+    padding: .2rem;
+    font-weight: 400;
 }
 
 /* Cards Container */
@@ -59,7 +69,7 @@ i.fa.fa-shopping-cart.fa-2x {
 /* Subscribe Section */
 
 #sub-form {
-    background-color: lavender;
+    background-color: #1e1f21;
 }
 
 #sub-header {
