@@ -41,6 +41,17 @@ i.fa.fa-shopping-cart.fa-lg.a {
     padding-left: .3rem;
 }
 
+@media (max-width: 768px) {
+    .fa {
+    padding-right: 0; 
+    padding-left: 0;
+    }
+
+    #brand-name {
+        padding-left: 0;
+    }
+}
+
 a {
     font-size: 16px;
     padding: .2rem;
@@ -66,10 +77,21 @@ a {
     font-size: 20px;
 }
 
+.card-body {
+    text-align: center;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #39FF13;
+    border-color: #39FF13;
+    font-weight: 600;
+}
+
 /* Subscribe Section */
 
-#sub-form {
-    background-color: #1e1f21;
+.sub-container {
+    background-color: #1e1f21 !important;
 }
 
 #sub-header {
@@ -92,15 +114,15 @@ footer {
     bottom: 0;
     width: 100%;
     padding: .10rem;
-    background-color: gray;
-    color: white;
+    background-color: #1e1f21;
+    color: #ece6e3;
     text-align: center;
 }
 
 footer li {
     display: inline;
     padding: 5px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 footer ul {
